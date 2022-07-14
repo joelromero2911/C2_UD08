@@ -72,4 +72,12 @@ public class Serie {
 	public void setCreador(String creador) {
 		this.creador = creador;
 	}
+
+	@Override
+	public String toString() {
+		return "Serie [titulo=" + titulo + ", numTemporadas=" + numTemporadas + ", entregado=" + entregado + ", genero="
+				+ genero + ", creador=" + creador + "]";
+	}
+	
+	
 }

@@ -102,4 +102,10 @@ public class Electrodomestico {
 	public void setPeso(float peso) {
 		this.peso = peso;
 	}
+	
+	@Override
+	public String toString() {
+		return "Electrodomestico [precioBase=" + precioBase + ", color=" + color + ", consumoEnergetico="
+				+ consumoEnergetico + ", peso=" + peso + "]";
+	}
 }

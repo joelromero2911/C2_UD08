@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Password {
-	
+
 	private int longitud;
 	private String contrasena;
 	
@@ -41,5 +41,10 @@ public class Password {
 
 	public void setContrasena(String contrasena) {
 		this.contrasena = contrasena;
+	}
+	
+	@Override
+	public String toString() {
+		return "Password [longitud=" + longitud + ", contrasena=" + contrasena + "]";
 	}
 }
